@@ -9,7 +9,7 @@ module.exports = {
         rollupOptions: {
             input: {
                 main: resolve(__dirname, 'index.html'),
-                qa: resolve(__dirname, 'qualityAsurance.html'),
+                qa: resolve(__dirname, 'qualityAssurance.html'),
                 security: resolve(__dirname, 'Security.html'),
                 badexample: resolve(__dirname, 'badExample.html')
             }
